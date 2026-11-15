@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>og-card - demo gallery</title>
+<meta name="description" content="Real 1200x630 share cards rendered by og-card: one PHP file, one JSON manifest, zero dependencies.">
+<style>
+  :root { color-scheme: dark; }
+  body { background: #0b0f17; color: #e8edf5; font: 16px/1.6 -apple-system, "Segoe UI", sans-serif; margin: 0; padding: 48px 24px; }
+  main { max-width: 1040px; margin: 0 auto; }
+  h1 { font-size: 28px; }
+  h1 code, p code { color: #3b82f6; }
+  .card { margin: 32px 0; border-radius: 8px; overflow: hidden; box-shadow: 0 8px 30px rgba(0,0,0,.5); }
+  .card img { display: block; width: 100%; height: auto; }
+  pre { background: #111827; padding: 16px; border-radius: 8px; overflow-x: auto; font-size: 14px; }
+  a { color: #3b82f6; }
+</style>
+</head>
+<body>
+<main>
+  <h1>og-card demo gallery</h1>
+  <p>Four real renders from <code>cards.json</code>, produced by <code>php og.php</code>. One PHP file, zero dependencies. See the <a href="https://github.com/bryanhamiltondev/og-card">og-card repo</a>.</p>
+  <div class="card"><img src="../sample/every-post-gets-a-card.png" alt="Sample card: every post gets a share card" width="1200" height="630"></div>
+  <div class="card"><img src="../sample/point-og-image-and-forget.png" alt="Sample card: point og:image and forget" width="1200" height="630"></div>
+  <div class="card"><img src="../sample/gd-is-the-whole-stack.png" alt="Sample card: GD is the whole stack" width="1200" height="630"></div>
+  <div class="card"><img src="../sample/missing-slug-demo.png" alt="Sample card: 404 handling" width="1200" height="630"></div>
+  <h2>Wire it up</h2>
+  <pre>&lt;meta property="og:image" content="https://yoursite.com/og/my-post-slug.png"&gt;
+&lt;meta name="twitter:image" content="https://yoursite.com/og/my-post-slug.png"&gt;</pre>
+</main>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "defaults": {
+    "meta": "yoursite.com",
+    "author": "Your Name",
+    "accent": "#3b82f6"
+  },
+  "cards": {
+    "every-post-gets-a-card": {
+      "kicker": "og-card",
+      "title": "Every post on your site gets a 1200x630 share card - from one PHP file",
+      "accent": "#3b82f6"
+    },
+    "point-og-image-and-forget": {
+      "kicker": "How it works",
+      "title": "Point og:image at /og/my-post.png and forget about it",
+      "accent": "#f59e0b"
+    },
+    "gd-is-the-whole-stack": {
+      "kicker": "Zero dependencies",
+      "title": "GD is already on your host. That is the whole stack.",
+      "accent": "#22c55e"
+    },
+    "missing-slug-demo": {
+      "kicker": "404 handling",
+      "title": "Even the error is a card. Add the slug to cards.json to fix it.",
+      "accent": "#ef4444"
+    }
+  }
+}

@@ -1,0 +1,5 @@
+# Pretty URLs: /og/my-post.png  ->  og.php?a=my-post
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^og/([a-z0-9-]+)\.png$ og.php?a=$1 [L]
+</IfModule>
